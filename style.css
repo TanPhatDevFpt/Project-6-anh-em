@@ -1,0 +1,128 @@
+/* cart download */
+.cart-download{
+    right:0px;
+    position:fixed;
+    z-index: 100;
+    background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-download-1.png") 0 0 / 100% 100% no-repeat;
+    width: 193px;
+    height: 273px;
+    padding-left: 20px;
+}
+.download{
+    position:absolute;
+    padding-left: 50px;
+    bottom:20px;
+}
+.img-qr{
+    height:91px;
+    padding-left: 53px;
+    position:absolute;
+    top:81px;
+}
+.img-download{
+    height: 30px;
+    margin-bottom: 5px;
+}
+/*end cart download */
+
+/* menu */
+.menu{
+    display: flex;
+    background: var(--color-background-menu);
+    background: -webkit-linear-gradient(top, #312b5c 0%, #252146 100%);
+    background: linear-gradient(to bottom, #312b5c 0%, #252146 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+/* end menu */
+
+/* logo lien quan */
+.img{
+    align-content: center;
+    margin-right: 5%;
+}
+.logo-lq{
+    height: 4rem;
+    align-items: center;
+}
+/* end logo lien quan */
+
+/* list ul menu */
+.list-ul{
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    color:var(--color-text-menu);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    gap:40px;
+}
+.list{
+    align-content: center;
+}
+/* end list ul menu */
+
+/* menu search */
+.search{
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+}
+.search-input{
+    padding-top: 5px;
+    padding-bottom: 6px;
+    background: url(https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-input.png)0 0 / 100% 100% no-repeat;
+    font-size: 20px;
+    border: 0;
+    padding-right: 127px;
+    outline: none;
+    position: relative;
+    padding-left: 32px;
+    color: var(--color-text-menu);
+    }
+    .submit{
+        right: 2%;
+        position: absolute;
+        border:0;
+        background: #ffffff00;
+    }
+/*end menu search */
+
+/* icon search */
+.search-lq{
+    height: 35px;
+}
+/*end icon search */
+
+/* slider */
+.slider {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit:inherit;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.slide.active {
+  opacity: 1;
+}
+/*end slider */
+
+/* section 2 */
+.section2{
+    background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-home-heroes.jpg") 0 0 / 100% 100% no-repeat;
+}
+/*end section 2 */
