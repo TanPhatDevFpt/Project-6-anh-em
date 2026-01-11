@@ -15,7 +15,7 @@
 }
 .img-qr{
     height:91px;
-    padding-left: 53px;
+    right:27px;
     position:absolute;
     top:81px;
 }
@@ -31,17 +31,14 @@
     background: var(--color-background-menu);
     background: -webkit-linear-gradient(top, #312b5c 0%, #252146 100%);
     background: linear-gradient(to bottom, #312b5c 0%, #252146 100%);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding: 10px 4%;
 }
 /* end menu */
 
 /* logo lien quan */
-.img{
+.inner-logo{
     align-content: center;
-    margin-right: 5%;
+    margin-right: 4%;
 }
 .logo-lq{
     height: 4rem;
@@ -123,6 +120,67 @@
 
 /* section 2 */
 .section2{
+    padding:1% 0;
     background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-home-heroes.jpg") 0 0 / 100% 100% no-repeat;
 }
 /*end section 2 */
+
+/* title*/
+.title{
+    margin-bottom: 4rem;
+    text-align: center;
+    position: relative;
+    font-size:41px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: var(--color-text-title);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 0, 0, 0);
+}
+.title::after{
+top:55px;
+left: calc(50% - 246px);
+content: "";
+position: absolute;
+width:492px;
+height:40px;
+background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/decor-title.png") 0 0 / 100% 100% no-repeat;
+}
+/*end title*/
+
+/* section2 post */
+.cart{
+    padding: 0% 3%;
+    display: flex;
+    gap:20px;
+}
+.post{
+  flex:1;
+}
+.post-img{
+   overflow: hidden;
+}
+.post-img img{
+  transition: all 150ms ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.post p{
+  font-size: 14px;
+  color: var(--color-text-p);
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.post a{
+  font-size: 19px;
+  color:var(--color-text-a);
+}
+/*end section2 post */
+
+/* hover img post section 2*/
+.post-img img:hover{
+  transform: scale(1.1) rotate(2deg);
+}
+/*end hover img post section 2*/
