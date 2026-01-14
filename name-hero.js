@@ -1,0 +1,37 @@
+export function name_hero(list_hero1,list_hero2,list_hero3,list_hero4,list_hero5,name_hero_1,name_hero_2,name_hero_3,name_hero_4,name_hero_5){ 
+  list_hero1.addEventListener("click",()=>{
+  name_hero_1.classList.remove("krixi");
+  name_hero_2.classList.remove("valhein_name");
+  name_hero_3.classList.remove("aya_name");
+  name_hero_4.classList.remove("trieuvan_name");
+  name_hero_5.classList.remove("arhur_name");
+});
+list_hero2.addEventListener("click",()=>{
+  name_hero_2.classList.add("valhein_name");
+  name_hero_1.classList.add("krixi");
+  name_hero_3.classList.remove("aya_name");
+  name_hero_4.classList.remove("trieuvan_name");
+  name_hero_5.classList.remove("arhur_name");
+});
+list_hero3.addEventListener("click",()=>{
+  name_hero_3.classList.add("aya_name");
+  name_hero_1.classList.add("krixi");
+  name_hero_2.classList.remove("valhein_name");
+  name_hero_4.classList.remove("trieuvan_name");
+  name_hero_5.classList.remove("arhur_name");;
+});
+list_hero4.addEventListener("click",()=>{
+  name_hero_4.classList.add("trieuvan_name");
+  name_hero_1.classList.add("krixi");
+  name_hero_2.classList.remove("valhein_name");
+  name_hero_3.classList.remove("aya_name");
+  name_hero_5.classList.remove("arhur_name");
+});
+list_hero5.addEventListener("click",()=>{
+  name_hero_5.classList.add("arhur_name");
+  name_hero_1.classList.add("krixi");
+  name_hero_2.classList.remove("valhein_name");
+  name_hero_3.classList.remove("aya_name");
+  name_hero_4.classList.remove("trieuvan_name");
+});
+}

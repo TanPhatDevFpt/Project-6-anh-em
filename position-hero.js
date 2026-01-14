@@ -1,0 +1,43 @@
+export function position_hero(list_hero1,list_hero2,list_hero3,list_hero4,list_hero5,position_hero1,position_hero2,position_hero3,position_hero4,position_hero5){
+    list_hero1.addEventListener("click",()=>{
+  position_hero1.classList.add("actionhero");
+  position_hero2.classList.remove("valheinhero");
+  position_hero2.classList.remove("hidden");
+  position_hero3.classList.remove("ayahero");
+  position_hero4.classList.remove("trieuvanhero");
+  position_hero5.classList.remove("arhurhero");
+});
+list_hero2.addEventListener("click",()=>{
+  position_hero2.classList.add("valheinhero");
+  list_hero1.classList.add("hidden");
+  position_hero1.classList.remove("hero-role-action");
+  position_hero1.classList.remove("actionhero");
+  position_hero3.classList.remove("ayahero");
+  position_hero4.classList.remove("trieuvanhero");
+  position_hero5.classList.remove("arhurhero");
+});
+list_hero3.addEventListener("click",()=>{
+  position_hero3.classList.add("ayahero");
+  position_hero1.classList.remove("hero-role-action");
+  position_hero1.classList.remove("actionhero");
+  position_hero5.classList.remove("arhurhero");
+  position_hero2.classList.remove("valheinhero");
+  position_hero4.classList.remove("trieuvanhero");
+});
+list_hero4.addEventListener("click",()=>{
+  position_hero4.classList.add("trieuvanhero");
+  position_hero1.classList.remove("hero-role-action");
+  position_hero1.classList.remove("actionhero");
+  position_hero5.classList.remove("arhurhero");
+  position_hero2.classList.remove("valheinhero");
+  position_hero3.classList.remove("ayahero");
+});
+list_hero5.addEventListener("click",()=>{
+  position_hero5.classList.add("arhurhero");
+  position_hero1.classList.remove("hero-role-action");
+  position_hero1.classList.remove("actionhero");
+  position_hero2.classList.remove("valheinhero");
+  position_hero3.classList.remove("ayahero");
+  position_hero4.classList.remove("trieuvanhero");
+});
+}
