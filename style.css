@@ -1,479 +1,749 @@
-/* logo age 16 */
-.logo-age{
-    position: fixed;
-    width: 100px;
-    z-index: 100;
-}
-/*end logo age 16 */
-
-/* cart download */
-.cart-download{
-    right:0px;
-    position:fixed;
-    z-index: 100;
-    background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-download-1.png") 0 0 / 100% 100% no-repeat;
-    width: 193px;
-    height: 273px;
-    padding-left: 20px;
-}
-.download{
-    position:absolute;
-    padding-left: 50px;
-    bottom:20px;
-}
-.img-qr{
-    height:91px;
-    right:27px;
-    position:absolute;
-    top:81px;
-}
-.img-download{
-    height: 30px;
-    margin-bottom: 5px;
-}
-/*end cart download */
-
-/* menu */
-.menu{
-    display: flex;
-    background: var(--color-background-menu);
-    background: -webkit-linear-gradient(top, #312b5c 0%, #252146 100%);
-    background: linear-gradient(to bottom, #312b5c 0%, #252146 100%);
-    padding: 10px 4%;
-}
-/* end menu */
-
-/* logo lien quan */
-.inner-logo{
-    align-content: center;
-    margin-right: 4%;
-}
-.logo-lq{
-    height: 4rem;
-    align-items: center;
-}
-/* end logo lien quan */
-
-/* list ul menu */
-.list-ul{
-    text-decoration: none;
-    display: flex;
-    list-style-type: none;
-    color:var(--color-text-menu);
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14px;
-    gap:40px;
-}
-.list{
-    align-content: center;
-}
-/* end list ul menu */
-
-/* menu search */
-.search{
-    margin-left: 120px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    position: relative;
-}
-.search-input{
-    padding-top: 5px;
-    padding-bottom: 6px;
-    background: url(https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-input.png)0 0 / 100% 100% no-repeat;
-    font-size: 20px;
-    border: 0;
-    padding-right: 127px;
-    outline: none;
-    position: relative;
-    padding-left: 32px;
-    color: var(--color-text-menu);
+    body{
+        box-sizing: border-box;
     }
-    .submit{
-        right: 2%;
-        position: absolute;
-        border:0;
-        background: #ffffff00;
+    /* logo age 16 */
+    .logo-age{
+        position: fixed;
+        width: 100px;
+        z-index: 100;
     }
-/*end menu search */
+    /*end logo age 16 */
 
-/* icon search */
-.search-lq{
-    height: 35px;
-}
-/*end icon search */
+    /* cart download */
+    .cart-download{
+        right:0px;
+        position:fixed;
+        z-index: 100;
+        background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-download-1.png") 0 0 / 100% 100% no-repeat;
+        width: 193px;
+        height: 273px;
+        padding-left: 20px;
+    }
+    .download{
+        position:absolute;
+        padding-left: 50px;
+        bottom:20px;
+    }
+    .img-qr{
+        height:91px;
+        right:27px;
+        position:absolute;
+        top:81px;
+    }
+    .img-download{
+        height: 30px;
+        margin-bottom: 5px;
+    }
+    /*end cart download */
 
-/* slider */
-.slider {
-  width: 100%;
-  height: 250px;
-  position: relative;
-  overflow: hidden;
-}
+    /* menu */
+    .menu{
+        display: flex;
+        background: var(--color-background-menu);
+        background: -webkit-linear-gradient(top, #312b5c 0%, #252146 100%);
+        background: linear-gradient(to bottom, #312b5c 0%, #252146 100%);
+        padding: 10px 4%;
+    }
+    /* end menu */
 
-.slide {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit:cover;
-  opacity: 0;
-  transition: opacity 0.8s ease;
-}
+    /* logo lien quan */
+    .inner-logo{
+        align-content: center;
+        margin-right: 4%;
+    }
+    .logo-lq{
+        height: 4rem;
+        align-items: center;
+    }
+    /* end logo lien quan */
 
-.slide.active {
-  opacity: 1;
-}
-/*end slider */
+    /* list ul menu */
+    .list-ul{
+        text-decoration: none;
+        display: flex;
+        list-style-type: none;
+        color:var(--color-text-menu);
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+        gap:40px;
+    }
+    .list-ul a{
+        transition: 0.5s;
+        color:var(--color-text-menu);
+    }
+    .list-ul a:hover{
+        outline:none;
+        text-decoration: none;
+        transition: 0.5s;
+        color:var(--color-hero-name);
+    }
+    .list{
+        align-content: center;
+    }
+    /* end list ul menu */
 
-/* section 2 */
-.section2{
-    padding:3% 0;
-    background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-home-heroes.jpg") 0 0 / 100% 100% no-repeat;
-}
-/*end section 2 */
+    /* menu search */
+    .search{
+        margin-left: 120px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        position: relative;
+    }
+    .search-input{
+        padding-top: 5px;
+        padding-bottom: 6px;
+        background: url(https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-input.png)0 0 / 100% 100% no-repeat;
+        font-size: 20px;
+        border: 0;
+        padding-right: 127px;
+        outline: none;
+        position: relative;
+        padding-left: 32px;
+        color: var(--color-text-menu);
+        }
+        .submit{
+            right: 2%;
+            position: absolute;
+            border:0;
+            background: #ffffff00;
+        }
+    /*end menu search */
 
-/* title*/
-.title{
-    margin-bottom: 4rem;
-    text-align: center;
+    /* icon search */
+    .search-lq{
+        height: 35px;
+    }
+    /*end icon search */
+
+    /* slider */
+    .slider {
+    width: 100%;
+    height: 250px;
     position: relative;
-    font-size:41px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background: var(--color-text-title);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 0, 0, 0);
-}
-.title::after{
-top:55px;
-left: calc(50% - 246px);
-content: "";
-position: absolute;
-width:492px;
-height:40px;
-background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/decor-title.png") 0 0 / 100% 100% no-repeat;
-}
-/*end title*/
-
-/* section2 post */
-.cart{
-    margin-bottom: 7%;
-    padding: 0% 3%;
-    display: flex;
-    gap:20px;
-}
-.post{
-  flex:1;
-}
-.post-img{
-   overflow: hidden;
-}
-.post-img img{
-  transition: all 150ms ease;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.post p{
-  font-size: 14px;
-  color: var(--color-text-p);
-  font-weight: 400;
-  margin-bottom: 5px;
-}
-.post a{
-  font-size: 19px;
-  color:var(--color-text-a);
-}
-/*end section2 post */
-
-/* hover img post section 2*/
-.post-img img:hover{
-  transform: scale(1.1) rotate(2deg);
-}
-/*end hover img post section 2*/
-
-/* hero video */
-.hero-video{
-    border: 2px solid white;
-}
-/*end hero video */
-
-/* name hero */
-.name-hero{
-    font-size: 35px;
-    margin: 15px 0px;
-    color:var(--color-hero-name);
-    font-weight: 700;
-}
-/*end name hero */
-
-/* hidden name hero */
-.krixi{
-    display: none;
-}
-.name-hero-hidden2,.name-hero-hidden3,.name-hero-hidden4,.name-hero-hidden5{
-    display: none;
-}
-.valhein_name{
-    display: block;
-   font-size: 35px;
-    margin: 15px 0px;
-    color:var(--color-hero-name);
-    font-weight: 700; 
-}
-.aya_name{
-    display: block;
-    font-size: 35px;
-    margin: 15px 0px;
-    color:var(--color-hero-name);
-    font-weight: 700;  
-}
-.trieuvan_name{
-    display: block;
-    font-size: 35px;
-    margin: 15px 0px;
-    color:var(--color-hero-name);
-    font-weight: 700;  
-}
-.arhur_name{
-    display: block;
-    font-size: 35px;
-    margin: 15px 0px;
-    color:var(--color-hero-name);
-    font-weight: 700; 
-}
-/*end hidden name hero */
-
-/* name hero */
-
-/* hero textcontent */
-.hero-textcontent{
-    z-index: 2;
-    padding: 0px 20px;
-    position: relative;
-}
-/*end hero textcontent */
-
-/* background hero */
-.hero-main{
     overflow: hidden;
-    padding: 10px 0px;
-    position: relative;
-    background: url("https://lienquan.garena.vn/wp-content/uploads/2024/06/Krixi-featured.jpg") center / cover;
-    filter: brightness(1.2);
-}
-.hero-main::after{
+    }
+
+    .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    }
+
+    .slide.active {
+    opacity: 1;
+    }
+    /*end slider */
+
+    /* section 2 */
+    .section2{
+        background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-home-heroes.jpg") 0 0 / 100% 100% no-repeat;
+    }
+    /*end section 2 */
+
+    /* title*/
+    .title{
+        margin-bottom: 4rem;
+        text-align: center;
+        position: relative;
+        font-size:41px;
+        font-weight: bold;
+        text-transform: uppercase;
+        background: var(--color-text-title);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 0, 0, 0);
+    }
+    .title::after{
+    top:55px;
+    left: calc(50% - 246px);
     content: "";
     position: absolute;
-    height: 100%;
+    width:492px;
+    height:40px;
+    background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/decor-title.png") 0 0 / 100% 100% no-repeat;
+    }
+    /*end title*/
+
+    /* section2 post */
+    .cart{
+        margin-bottom: 7%;
+        padding: 0% 3%;
+        display: flex;
+        gap:20px;
+    }
+    .post{
+    flex:1;
+    }
+    .post-img{
+    overflow: hidden;
+    }
+    .post-img img{
+    transition: all 150ms ease;
     width: 100%;
-    inset: 0;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
-     z-index: 1
-}
-.hero-main::before{
-    content: "";
-    position: absolute;
     height: 100%;
-    width: 100%;
-    inset: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
-     z-index: 1
-}
-/*end background hero */
-
-/* list hero img */
-.list-hero{
-    left:15%;
-    padding-bottom: 30px;
-    z-index: 2;
-    text-align: center;
-    position: relative;
-    display:flex;
-    justify-content: center;
-    gap:20px;
-}
-/*end list hero img */
-
-/* hidden img hero */
-.hero-2,.hero-3,.hero-4,.hero-5{
-    opacity: 30%;
-}
-/*end hidden img hero */
-
-/* img hero */
-.list-hero .hero{
-    width: 100px;
-    height:100px;
-    border-radius: 50px;
-    padding: 5px;
-    border: 1px solid #edbe80;
-}
-/*end img hero */
-
-/* hidden name hero */
-.hero-role-position-2-,.hero-role-position-3-,.hero-role-position-4-,.hero-role-position-5-{
-    display: none;
-}
-/*end hidden name hero */
-
-/* hero role */
-.hero-role{
-    display: none;
-}
-.actionhero{
-    display: flex;
-    align-items: center;
-    gap:10px;
-    margin-bottom: 20px;
-}
-.actionhero img{
-    width: 34px;
-    height:auto;
-}
-.actionhero p{
-    color: var(--color-text-a);
+    object-fit: cover;
+    }
+    .post p{
+    font-size: 14px;
+    color: var(--color-text-p);
+    font-weight: 400;
+    margin-bottom: 5px;
+    }
+    .post a{
     font-size: 19px;
-}
-.hero-role-action{
-    display: flex;
-    align-items: center;
-    gap:10px;
-    margin-bottom: 20px;
-}
-/*end hero role */
+    color:var(--color-text-a);
+    }
+    /*end section2 post */
 
-/* hero position */
-.hero-role-action img{
-    width: 34px;
-    height:auto;
-}
-.hero-role-action p{
-    color: var(--color-text-a);
-    font-size: 19px;
-}
-/*end hero position */
+    /* hover img post section 2*/
+    .post-img img:hover{
+    transform: scale(1.1) rotate(2deg);
+    }
+    /*end hover img post section 2*/
 
-/* img opacity hero section 2 */
-.hidden{
-    opacity: 50%;
-}
-.img1{
-    opacity: 100%;
-}
-.img2{
-    opacity: 100%;
-}
-.img3{
-    opacity: 100%;
-}
-.img4{
-    opacity: 100%;
-}
-.img5{
-    opacity: 100%;
-}
-/*end img opacity hero section 2 */
+    /* hero video */
+    .hero-video{
+        border: 2px solid white;
+    }
+    /*end hero video */
 
-/* hero role valhein*/
-.valheinhero{
-    display: flex;
-    align-items: center;
-    gap:10px;
-    margin-bottom: 20px;
-}
-.valheinhe .hero-role-action{
-    display: none;
-}
-/*end hero role */
+    /* name hero */
+    .name-hero{
+        font-size: 35px;
+        margin: 15px 0px;
+        color:var(--color-hero-name);
+        font-weight: 700;
+    }
+    /*end name hero */
 
-/* hero position */
-.valheinhero img{
-    width: 34px;
-    height:auto;
-}
-.valheinhero p{
-    color: var(--color-text-a);
-    font-size: 19px;
-}
-/*end hero position valhein */
+    /* hidden name hero */
+    .krixi{
+        display: none;
+    }
+    .name-hero-hidden2,.name-hero-hidden3,.name-hero-hidden4,.name-hero-hidden5{
+        display: none;
+    }
+    .valhein_name{
+        display: block;
+    font-size: 35px;
+        margin: 15px 0px;
+        color:var(--color-hero-name);
+        font-weight: 700; 
+    }
+    .aya_name{
+        display: block;
+        font-size: 35px;
+        margin: 15px 0px;
+        color:var(--color-hero-name);
+        font-weight: 700;  
+    }
+    .trieuvan_name{
+        display: block;
+        font-size: 35px;
+        margin: 15px 0px;
+        color:var(--color-hero-name);
+        font-weight: 700;  
+    }
+    .arhur_name{
+        display: block;
+        font-size: 35px;
+        margin: 15px 0px;
+        color:var(--color-hero-name);
+        font-weight: 700; 
+    }
+    /*end hidden name hero */
 
-/* hero role aya*/
-.ayahero{
-    display: flex;
-    align-items: center;
-    gap:10px;
-    margin-bottom: 20px;
-}
-/*end hero role */
+    /* name hero */
 
-/* hero position */
-.ayahero img{
-    width: 34px;
-    height:auto;
-}
-.ayahero p{
-    color: var(--color-text-a);
-    font-size: 19px;
-}
-/*end hero position aya */
+    /* hero textcontent */
+    .hero-textcontent{
+        z-index: 2;
+        padding: 0px 20px;
+        position: relative;
+    }
+    /*end hero textcontent */
 
-/* hero role trieuvan*/
-.trieuvanhero{
-    display: flex;
-    align-items: center;
-    gap:10px;
-    margin-bottom: 20px;
-}
-/*end hero role */
+    /* background hero */
+    .hero-main{
+        overflow: hidden;
+        padding: 10px 0px;
+        position: relative;
+        background: url("https://lienquan.garena.vn/wp-content/uploads/2024/06/Krixi-featured.jpg") center / cover;
+        filter: brightness(1.2);
+    }
+    .hero-main::after{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        inset: 0;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+        z-index: 1
+    }
+    .hero-main::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        inset: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+        z-index: 1
+    }
+    /*end background hero */
 
-/* hero position */
-.trieuvanhero img{
-    width: 34px;
-    height:auto;
-}
-.trieuvanhero p{
-    color: var(--color-text-a);
-    font-size: 19px;
-}
-/*end hero position trieuvan */
+    /* list hero img */
+    .list-hero{
+        left:15%;
+        padding-bottom: 30px;
+        z-index: 2;
+        text-align: center;
+        position: relative;
+        display:flex;
+        justify-content: center;
+        gap:20px;
+    }
+    /*end list hero img */
 
-/* hero role arhur*/
-.arhurhero{
-    display: flex;
-    align-items: center;
-    gap:10px;
-    margin-bottom: 20px;
-}
-/*end hero role */
+    /* hidden img hero */
+    .hero-2,.hero-3,.hero-4,.hero-5{
+        opacity: 30%;
+    }
+    /*end hidden img hero */
 
-/* hero position */
-.arhurhero img{
-    width: 34px;
-    height:auto;
-}
-.arhurhero p{
-    color: var(--color-text-a);
-    font-size: 19px;
-}
-/*end hero position arhur */
+    /* img hero */
+    .list-hero .hero{
+        width: 100px;
+        height:100px;
+        border-radius: 50px;
+        padding: 5px;
+        border: 1px solid #edbe80;
+    }
+    /*end img hero */
 
-/* background hero section 2 */
-.valhein{
-    background:url("https://lienquan.garena.vn/wp-content/uploads/2024/06/Val.jpg") center / cover;
-}
-.aya{
-    background:url("https://lienquan.garena.vn/wp-content/uploads/2024/06/Aya.jpg") center / cover;
-}
-.trieuvan{
-    background:url("https://lienquan.garena.vn/wp-content/uploads/2024/06/trieu-van.jpg") center / cover;
-}
-.arhur{
-    background:url("https://lienquan.garena.vn/wp-content/uploads/2024/06/arthur-featured.jpg") center / cover;
-}
-.action{
-    background: url("https://lienquan.garena.vn/wp-content/uploads/2024/06/Krixi-featured.jpg") center / cover;
-}
-/*end background hero section 2 */
+    /* hidden name hero */
+    .hero-role-position-2-,.hero-role-position-3-,.hero-role-position-4-,.hero-role-position-5-{
+        display: none;
+    }
+    /*end hidden name hero */
+
+    /* hero role */
+    .hero-role{
+        display: none;
+    }
+    .actionhero{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        margin-bottom: 20px;
+    }
+    .actionhero img{
+        width: 34px;
+        height:auto;
+    }
+    .actionhero p{
+        color: var(--color-text-a);
+        font-size: 19px;
+    }
+    .hero-role-action{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        margin-bottom: 20px;
+    }
+    /*end hero role */
+
+    /* hero position */
+    .hero-role-action img{
+        width: 34px;
+        height:auto;
+    }
+    .hero-role-action p{
+        color: var(--color-text-a);
+        font-size: 19px;
+    }
+    /*end hero position */
+
+    /* img opacity hero section 2 */
+    .hidden{
+        opacity: 50%;
+    }
+    .img1{
+        opacity: 100%;
+    }
+    .img2{
+        opacity: 100%;
+    }
+    .img3{
+        opacity: 100%;
+    }
+    .img4{
+        opacity: 100%;
+    }
+    .img5{
+        opacity: 100%;
+    }
+    /*end img opacity hero section 2 */
+
+    /* hero role valhein*/
+    .valheinhero{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        margin-bottom: 20px;
+    }
+    .valheinhe .hero-role-action{
+        display: none;
+    }
+    /*end hero role */
+
+    /* hero position */
+    .valheinhero img{
+        width: 34px;
+        height:auto;
+    }
+    .valheinhero p{
+        color: var(--color-text-a);
+        font-size: 19px;
+    }
+    /*end hero position valhein */
+
+    /* hero role aya*/
+    .ayahero{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        margin-bottom: 20px;
+    }
+    /*end hero role */
+
+    /* hero position */
+    .ayahero img{
+        width: 34px;
+        height:auto;
+    }
+    .ayahero p{
+        color: var(--color-text-a);
+        font-size: 19px;
+    }
+    /*end hero position aya */
+
+    /* hero role trieuvan*/
+    .trieuvanhero{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        margin-bottom: 20px;
+    }
+    /*end hero role */
+
+    /* hero position */
+    .trieuvanhero img{
+        width: 34px;
+        height:auto;
+    }
+    .trieuvanhero p{
+        color: var(--color-text-a);
+        font-size: 19px;
+    }
+    /*end hero position trieuvan */
+
+    /* hero role arhur*/
+    .arhurhero{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        margin-bottom: 20px;
+    }
+    /*end hero role */
+
+    /* hero position */
+    .arhurhero img{
+        width: 34px;
+        height:auto;
+    }
+    .arhurhero p{
+        color: var(--color-text-a);
+        font-size: 19px;
+    }
+    /*end hero position arhur */
+
+    /* background hero section 2 */
+    .valhein{
+        background:url("https://lienquan.garena.vn/wp-content/uploads/2024/06/Val.jpg") center / cover;
+    }
+    .aya{
+        background:url("https://lienquan.garena.vn/wp-content/uploads/2024/06/Aya.jpg") center / cover;
+    }
+    .trieuvan{
+        background:url("https://lienquan.garena.vn/wp-content/uploads/2024/06/trieu-van.jpg") center / cover;
+    }
+    .arhur{
+        background:url("https://lienquan.garena.vn/wp-content/uploads/2024/06/arthur-featured.jpg") center / cover;
+    }
+    .action{
+        background: url("https://lienquan.garena.vn/wp-content/uploads/2024/06/Krixi-featured.jpg") center / cover;
+    }
+    /*end background hero section 2 */
+
+    /* background section 3 */
+    .section3{
+        padding-bottom: 60px;
+        padding-top: 60px;
+        background:url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-academy.jpg") 0 0 / 100% 100%;
+    }
+    /*end background section 3 */
+
+    /* menu item */
+    .menu-item{
+            position: relative;
+        padding:1.4% 0;
+        width: 20%;
+        height: 70px;
+        background: #edbe80;
+        background: -moz-linear-gradient(left, #edbe80 0%, rgba(237, 190, 128, 0.1) 100%);
+        background: -webkit-linear-gradient(left, #edbe80 0%, rgba(237, 190, 128, 0.1) 100%);
+        background: linear-gradient(to right, #edbe80 0%, rgba(237, 190, 128, 0.1) 100%);
+    }
+    .menu-item a{
+        margin-left: 30%;
+        font-size:19px;
+        color:white;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .menu-item a::before{
+        content: "";
+        display: block;
+        position: absolute;
+        transform: rotate(45deg);
+        width: 16px;
+        height: 16px;
+        left: 16%;
+        bottom:36%;
+        border: 1px solid #ffffff;
+    }
+    .menu-item a::after{
+        background: #ffffff;
+        content: "";
+        display: block;
+        position: absolute;
+        transform: rotate(45deg);
+        width: 9px;
+        height: 9px;
+        left: 17.2%;
+        bottom: 41%;
+    }
+    /*end menu item */
+
+    /* menu hero */
+    .menu-hero{
+        display: flex;
+    }
+    /*end menu hero */
+
+    /* menu item list hero */
+    .item{
+        gap:30px;
+        padding: 1%;
+        height: auto;
+        width: 65%;
+        display: flex;
+        flex-wrap: wrap;
+        background: #000;
+        background: -moz-linear-gradient(top, #000 0%, transparent 100%);
+        background: -webkit-linear-gradient(top, #000 0%, transparent 100%);
+        background: linear-gradient(to bottom, #000 0%, transparent 100%);
+    }
+    .item-hero{
+        margin-right: 22px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 6%;
+    }
+    .item img{
+        border-radius: 0 10px 0 10px;
+        margin-bottom: 5px;
+        border:2px solid #59595b;
+        align-items: center;
+        width: 81px;
+        height:auto;
+        transition: all 300ms ease;
+    }
+    .item img:hover{
+        border:2px solid rgb(255, 255, 255);
+        transition: all 300ms ease;
+    }
+      .item img:hover + h2{
+        transition: all 300ms ease;
+        color:white;
+    }
+    .item h2{
+        transition: all 300ms ease;
+        font-size: 12px;
+        color:var(--color-text-item-hero);
+        text-align: center;
+    }
+    .item a{
+        text-decoration: none;
+    }
+    /*end menu item list hero */
+
+    /* section 4 */
+    .section4{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    }
+    .section4 img{
+        width:100%;
+        opacity: 0;
+        transform: translateX(-80px);
+        transition: all 1s ease;
+    }
+    .section4 img.show{
+    opacity: 1;
+    transform: translateX(0);
+    }
+    .section4 h4{
+        color:var(--color-text-footer-h3);
+        font-size:24px;
+        font-weight: 700;
+    }
+    .section4 p{
+        color:white;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .section4 a{
+        text-decoration: none;
+        color:var(--color-hero-name);
+        font-weight: bold;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:20px;
+        padding-right:40px;
+        transition: 0.6s;
+        background:url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/btn-more.png") 0 0 / 100% 100% no-repeat;
+    }
+    .section4 a:hover{
+        filter: brightness(140%);
+        transition: 0.6s;
+    }
+    /*end section 4 */
+
+    /* section 5 */
+    .background__form{
+        background:#ffffff0f;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .section5 span{
+        display:none;
+        color:red;
+    }
+    .section5 input{
+        padding: 5px;
+        outline: none;
+        width:100%;
+        margin-bottom:10px;
+    }
+    .section5 textarea{
+        outline: none;
+        width:100%;
+    }
+    .section5 .center{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .section5 button{
+        background:#d43831;
+        border: 0px;
+        color:white;
+        font-weight: 400;
+        border-radius: 1px;
+        padding:9px;
+        width:97%;
+    }
+    .section5 textarea:hover{
+        border-radius: 2px;
+        border:1px solid #d43831;
+        box-shadow: 0 0 0 .02rem rgba(212, 56, 49, .2);
+    }
+    .section5 textarea:focus{
+        border-radius: 2px;
+        border:1px solid #d43831;
+        box-shadow: 0 0 0 .02rem rgba(212, 56, 49, .2);
+    }
+    .section5 button:hover{
+        border:1px solid #d43831;
+        box-shadow: 0 0 0 1px rgba(255, 0, 0, 0.2);
+    }
+    .section5 input:hover{
+        border-radius: 2px;
+        border:1px solid #d43831;
+        box-shadow: 0 0 0 .02rem rgba(212, 56, 49, .2);
+    }
+    .section5 input:focus{
+        border-radius: 2px;
+        border:1px solid #d43831;
+        box-shadow: 0 0 0 .02rem rgba(212, 56, 49, .2);
+    }
+    /*end section 5 */
+
+    /* popup */
+    .popup{
+        display: none;
+        top:0;
+        background: rgba(0, 0, 0, 0.364);
+        position: fixed;
+        width:100%;
+        height:1000px;
+        z-index: 1000000;
+    }
+    .popup_main{
+        left: 0;
+        background:url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-academy.jpg") 0 0 / 100% 100%;
+        margin-top:50px;
+        margin-bottom:50px;
+        width: 100%;
+        height:600px;
+    }
+    .inner_title{
+        background:url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-skin-name.png") center / cover no-repeat;
+        font-weight: 700;
+        padding-top:20px;
+        font-size:30px;
+        width:100%;
+        height:100px;
+        color:#c9bb93;
+        display:flex;
+        justify-content: center;
+    }
+    .description{
+        display:flex;
+        justify-content: center;
+        font-size:20px;
+        padding-top:50px;
+        font-weight: 500;
+        color:white;
+    }
+    .active_button{
+        margin-left:40%;
+        margin-top:200px !important;
+        width:20% !important;
+    }
+    /*end popup */
+    .container{
+        margin-bottom: 60px;
+    }
+    /* truot anchor */
+    html {
+    scroll-behavior: smooth;
+    }
+    /*end truot anchor */

@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background:url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-academy.jpg") 0 0 / 100% 100% no-repeat;
+}
+.box{
+    margin-bottom: 30px;
+    padding: 1%;
+    background: linear-gradient(to bottom, #000000 0%, transparent 100%);
+}
+.center{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.box img{
+    width: 100%;
+    height:500px;
+    object-fit: cover;
+    margin-top: -27px;
+}
+.box h3{
+    justify-content: center;
+    display: flex;
+    color:var(--color-hero-name);
+    padding: 4% 0%;
+    font-size: 39px;
+    background:url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/bg-skin-name.png") 0 0 / 100% 100% no-repeat;
+}
+.box h4{
+   color:var(--color-hero-name);
+   font-size:22px; 
+}
+.box p{
+    color:white;
+    font-size: 17px;
+    width: 670px;
+}
+footer{
+    position: relative;
+    background:var(--color-background-footer);
+    width: 100%;
+}
+footer ul{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+footer ul img{
+    width: 25px;
+    height:25px;
+}
+footer::before{
+    content:"";
+    top:-1.5rem;
+    width: 100%;
+    height:50px;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    background: url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/decor-footer.png") 0 0 / 100% 100% no-repeat;
+}
+.footer__logo{
+    padding-bottom: 30px;
+    justify-content: center;
+    display: flex;
+    gap:40px;
+}
+.footer__logo img{
+    height:45px;
+}
+.footer__content{
+    text-align: center;
+}
+.footer__content h3{
+    color:var(--color-text-footer-h3);
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer__content p{
+    margin: 0;
+    font-size: 16px;
+    color: var(--color-text-footer-p);
+}
+.back{
+    position: absolute;
+    top:23px;
+    left:23px;
+    transition: all 300ms ease;
+}
+.back a{
+    font-weight: 700;
+    text-decoration: none;
+    color:var(--color-text-p);
+    padding-right: 55px;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:10px;
+    background:url("https://lienquan.garena.vn/wp-content/themes/aov-2024/assets/img/btn-more.png") 0 0 / 100% 100% no-repeat;
+}
+.back:hover{
+    filter: brightness(140%);
+}

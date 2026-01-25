@@ -5,7 +5,15 @@
     --color-text-title: linear-gradient(to top, #bd9867 0%, #fce3bc 100%);
     --color-hero-name:#edbe80;
     --color-text-a: white;
+    --color-text-p:#b99562;
+    --color-text-item-hero:#7f7f7f;
+    --color-background-footer:#212222;
+    --color-text-footer-p:#797979;
+    --color-text-footer-h3:#c9bb93;
 }
 body{
     font-family: "Montserrat", sans-serif;
+}
+.row{
+    margin-right: 0;
 }

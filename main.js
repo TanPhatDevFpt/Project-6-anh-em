@@ -15,6 +15,52 @@ const position_hero2 = document.querySelector(".hero-role-position-2-");
 const position_hero3 = document.querySelector(".hero-role-position-3-");
 const position_hero4 = document.querySelector(".hero-role-position-4-");
 const position_hero5 = document.querySelector(".hero-role-position-5-");
+const name = document.querySelector("#name");
+const gmail = document.querySelector("#gmail");
+const error_name = document.querySelector(".error-name");
+const error_gmail = document.querySelector(".error-gmail");
+const register = document.querySelector(".register");
+const active = document.querySelector(".active_button");
+const popup = document.querySelector(".popup");
+
+active.addEventListener("click",()=>{
+  popup.style.display = "none";
+});
+
+register.addEventListener("click",()=>{
+  let check = true;
+  if(name.value.trim() === ""){
+    error_name.style.display = "block";
+    check = false;
+  }else{
+    error_name.style.display = "none";
+  }
+  if(!gmail.value.trim().includes("@")){
+    error_gmail.style.display = "block";
+    check = false;
+  }else{
+    error_gmail.style.display = "none";
+  }
+  if(check){
+    popup.style.display = "block";
+  }
+});
+
+
+//img animation section 4
+const imgs = document.querySelectorAll(".section4 img");
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("show");
+    }
+  });
+}, {
+  threshold: 0.1
+});
+//end img animation section 4
+
+imgs.forEach(img => observer.observe(img));
 
 import { name_hero } from "./name-hero.js";
 name_hero(list_hero1,list_hero2,list_hero3,list_hero4,list_hero5,name_hero_1,name_hero_2,name_hero_3,name_hero_4,name_hero_5);
